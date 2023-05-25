@@ -6,10 +6,7 @@ function dobbelsteenGooien(){
 
     var aa = document.getElementById("gooi");
 
-
     var myArray = [0,0,0,0,0,0,0];
-
-    
 
 
     for(let i = 0; i<5; i++ ){
@@ -47,5 +44,17 @@ function dobbelsteenGooien(){
 
     + '\nMax Value:' + myMaxScore;
 
+}
+
+
+function reset(){
+    var aa = document.getElementById("gooi");
+
+    myMaxScore = 0
+
+
+    aa.innerText = 'Gooi';
+
+    
 }
 
