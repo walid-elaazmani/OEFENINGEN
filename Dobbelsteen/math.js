@@ -41,15 +41,15 @@ function dobbelsteenGooien(){
         myMaxScore = Math.max(...myArray);
     }
 
-    aa.innerText = "Aantal gelijke nummers : " 
+    aa.innerText = "Aantal gelijke nummers : " + '\n'
 
 
-    + '\nOne: ' + myArray[0]
-    + '\nTwee: ' + myArray[1]
-    + '\nDrie: ' + myArray[2]
-    + '\nVier: ' + myArray[3] 
-    + '\nVijf: ' + myArray[4]
-    + '\nZes: ' + myArray[5]
+    + '\nOne: ' + myArray[0] + '\n'
+    + '\nTwee: ' + myArray[1] + '\n'
+    + '\nDrie: ' + myArray[2] + '\n'
+    + '\nVier: ' + myArray[3] + '\n'
+    + '\nVijf: ' + myArray[4] + '\n'
+    + '\nZes: ' + myArray[5] + '\n'
 
     + '\nMax Value:' + myMaxScore;
 
