@@ -1,0 +1,15 @@
+td{
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    background-color: red;
+}
+
+td:first-child{
+    background-color: yellow;
+}
+
+td:last-child{
+    background-color: black;
+}
+

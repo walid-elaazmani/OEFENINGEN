@@ -1,0 +1,26 @@
+.Maintable{
+    
+    border-bottom: 5px solid black;
+}
+
+
+tbody tr:first-child > td{
+    font-weight: bold ;
+    border-bottom: 1px solid black;
+    height: 20px;
+    width: 50px;
+}
+
+.TabTitle {
+    border-bottom: solid 5px;
+    width: 314px;
+    height: 2px;
+}
+
+.CelllTitle{
+    text-align: center;
+}
+
+
+
+
