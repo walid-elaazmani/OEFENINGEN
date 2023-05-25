@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(197, 226, 154);
+}
+
+
+.container{
+    display: flex;
+    border: 5px solid green;
+    background-color: yellow;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-top: 2%;
+    margin-bottom: 30px;
+}
+
+.container2{
+    border: 5px solid green;
+    background-color: yellow;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-top: 2%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.thirdDiv{
+   display: inline-flex
+}
+
+.text{
+    font-size: medium;
+    float: right;
+    margin-left: 2.5%;
+}
+
+.image{
+    padding-top: 5%;
+}
+
