@@ -14,7 +14,7 @@ function dobbelsteenGooien(){
 
 
     var myArray = [0,0,0,0,0,0,0];
-    var imgArray = [d1,d2,d3,d4,d5];
+    let imgArray = [d1,d2,d3,d4,d5];
 
 
     for(let i = 0; i<5; i++ ){
@@ -33,9 +33,6 @@ function dobbelsteenGooien(){
         case 6 : myArray[5] ++; imgArray[i].src=".\\Resources\\dobbel6.gif";
     }
 }
-
-
-    
 
     if(Math.max(...myArray) > myMaxScore){
         myMaxScore = Math.max(...myArray);
@@ -62,8 +59,12 @@ function reset(){
     myMaxScore = 0
 
 
-    aa.innerText = 'Gooi';
+    for (let i = 0; i < imgArray.length; i++) {
+        imgArray[i].src=".\\Resources\\dobbel6.gif"
+      }
 
+
+    aa.innerText = 'Gooi';
     
 }
 
