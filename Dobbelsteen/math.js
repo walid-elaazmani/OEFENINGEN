@@ -1,20 +1,19 @@
 
 var myMaxScore = 0;
 
-
 function dobbelsteenGooien(){
 
-    var aa = document.getElementById("gooi");
+    aa = document.getElementById("gooi");
 
-    var d1 = document.getElementById("1");
-    var d2 = document.getElementById("2");
-    var d3 = document.getElementById("3");
-    var d4 = document.getElementById("4");
-    var d5 = document.getElementById("5");
+    d1 = document.getElementById("1");
+    d2 = document.getElementById("2");
+    d3 = document.getElementById("3");
+    d4 = document.getElementById("4");
+    d5 = document.getElementById("5");
 
 
-    var myArray = [0,0,0,0,0,0,0];
-    let imgArray = [d1,d2,d3,d4,d5];
+    myArray = [0,0,0,0,0,0,0];
+    imgArray = [d1,d2,d3,d4,d5];
 
 
     for(let i = 0; i<5; i++ ){
@@ -54,7 +53,7 @@ function dobbelsteenGooien(){
 
 
 function reset(){
-    var aa = document.getElementById("gooi");
+    aa = document.getElementById("gooi");
 
     myMaxScore = 0
 
